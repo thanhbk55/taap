@@ -23,7 +23,7 @@ module Taap
       replay_console: true,                 # if true, console.* will be replayed client-side
     }
     # Changing files matching these dirs/exts will cause the server renderer to reload:
-    config.react.server_renderer_extensions = ["jsx", "js"]
+    config.react.server_renderer_extensions = ["jsx", "js", "tsx", "ts"]
     config.react.server_renderer_directories = ["/app/assets/javascripts", "/app/javascript/"]
   end
 end
